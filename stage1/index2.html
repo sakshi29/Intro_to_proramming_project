@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	   <meta charset="UTF-8">
+	   <title>My Notes</title>
+	   <link rel="stylesheet" type="text/css" href="style.css"/>
+	   
+	</head>
+	
+	<body>
+	    <div class="fullpage">
+			<div class="header">
+				<div class="pic">
+				    <img src="finallogo.png" alt="html notes">
+				</div>
+				<div class="mheading">
+				    <h1>My Notes</h1>
+				</div>   
+				<div class="nav">
+					<ul>
+				       <li><a href="index.html">Stage0</a></li>
+				       <li><a href="index2.html">Stage1</a></li>
+					</ul>
+				</div>
+				  
+			</div>
+		    <div class="clear"></div>
+
+			<div class="content">
+				<!--<h1> Stage0: Summery</h1>
+				<div>
+					<h3>The basic of the web</h3>
+					
+					<ul>
+					  <li>The web</li>
+					  <li>HTML</li>
+					  <li>URLs</li>
+					  <li>HTTP</li>
+					  <li>Web Application</li>
+					</ul>
+				</div>
+				<div>
+					<h3>WWW-World Wide Web </h3>
+					<p>It is the collection of HTML documents. It contains hyperlinks i.e. links between pages. HTML is the main content in the web but it can also contain plain text, audio, video and images.</p>
+				</div>
+				<div>
+					<h3>How it works</h3>
+					<p> The user sends <em>HTTP request to the server</em> using computer and internet. The server finds the required HTML documents and sends it back to the user's computer where the web browser diplays the document .</p>
+				</div>
+				<div>		
+					<h3>What is HTML</h3>
+					<p><b>HTML</b> stands for Hyper Text Markup Language. HTML is made up of-<br>Text content- what you see.<br>Markup-what it looks like.<br>References to othe document- images, video etc.<br>Links to other pages.</p>
+				</div>
+				<div>		
+					<h3>Tags, Element and Attributes</h3> 
+					<p><b>Tags</b> define how the web browser format and display the content.Most tags has two part the opening tag and closing tag.<br> Example &lt;html&gt;  &lt;/html&gt;<br>Void tag does not have closing tag since they do not have any content</p>
+					<p><b>Attributes</b> provide additional information about the tag.<br>Example &lt;img src=" "&gt;  &lt;/img&gt; where src is an attribute of img tag</p>
+					<p>HTML document is made up of elements.</p>
+				</div>
+				<div>		
+					<h3>Inline and Block elements</h3>
+					<p>Html has two type of element inline and block. Inline element only takes as much width as necessary whereas block element form an invisible box around the content. This box has some height and width.<br>Example of Inline element-<br>&lt;br&gt;<br>&lt;span&gt;<br><br>Example of Inline element-<br>&lt;div&gt;<br>&lt;p&gt;</p>
+				</div>-->
+                				
+				<h1> Stage1: Summery</h1>
+				<div>
+					<h3>Why to start programming with HTML and CSS</h3>	
+					<p>It is one of the few areas of programming which is inherently visual that is Anything you do any code you write will automatically visible in the browser.</p>
+				</div>
+				<div>		
+					<h3>Developer Tools</h3>
+					<p>They helps in inspecting code that is what HTML is applied and how CSS is used for styling. It can be used change the element, review the changes.</p>
+				</div>
+				<div>		
+					<h3>DOM - Docment Object Model</h3>
+					<p>It define the logical structure of documents and the way a document can be accessed and manipulated. It is a tree like structure. where root is at top and leaf nodes are at bottom. </p>
+				</div>
+				<div>		
+					<h3>Boxes</h3>
+					<p>HTML page is a collection of boxes or we can divide layout into many different rectangular boxes. It makes coding easy. And make document structured.</p>
+				</div>
+				<div>
+					<h3>CSS</h3>
+					<p>CSS stands for cascading style sheet. CSS is used to add style to the HTML document. CSS control the layout design of HTML documents all at once.<br>
+					A CSS comprises of style rules that are interpreted by the browser and then applied to the corresponding elements in your document. A style rule is made of three parts −<br><br><b>Selector</b> − A selector is an HTML tag at which a style will be applied. This could be any tag like &lt;h1&gt; or &lt;table&gt; etc. There are different type of selector<br><br><b>Property</b> - A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. like color, border etc.<br><br><b>Value</b> - Values are assigned to properties.</p>
+					<div class="example">
+					selector { property: value }
+					</div>
+				</div>
+				<div>
+					<h3>How to include CSS in HTML</h3>
+					<p>There are 3 methods for adding CSS in HTML document.</p>
+					<p><b>Internal Style Sheet:</b> can be defined within &lt;style&gt; tag inside the &lt;head&gt; section of HTML page.</p>
+					<div class="example">
+					&lt;head&gt;<br>
+					&nbsp;&nbsp;&nbsp;&lt;style&gt;<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;body {<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background-color: linen;<br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br><br>
+					&nbsp;&nbsp;&nbsp;&lt;/style&gt;<br>
+					&lt;/head&gt;
+						
+					</div>
+					<p><b>External Style Sheet:</b> A reference to external CSS style sheet can be added to the HTML page. The advantage of using external style sheet is that more than one page can be styled using same CSS. No need to write again and again same code.</p>
+					<div class="example">
+				    &lt;head&gt;<br><br>
+					&nbsp;&nbsp;&nbsp;&lt;link rel="stylesheet" type="text/css" href="mystyle.css"&gt;<br><br>
+				    &lt;/head&gt;
+						 
+					</div>
+					<p><b>Inline Style Sheet:</b> An inline style may be used to apply a unique style for a single element.</p>
+					<div class="example">
+				    &lt; h1 style="color:blue; margin-left:30px;" &gt;This is a heading.&lt;/h1&gt;
+					</div>
+					
+				</div>
+			</div>	
+		    <div class="footer">
+				<p>For more information:
+				<a href="http://www.w3schools.com/html/default.asp">Tutorial</a></p>
+			</div>
+			
+        </div>	
+	</body>
+	
+</html>	
